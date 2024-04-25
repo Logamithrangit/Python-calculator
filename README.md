@@ -27,8 +27,8 @@ while True:
    
     if choice in ('1', '2', '3', '4'):
         try:
-            num1 = float(input("Enter first number: "))
-            num2 = float(input("Enter second number: "))
+            num1 = int(input("Enter first number: "))
+            num2 = int(input("Enter second number: "))
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
@@ -51,3 +51,17 @@ while True:
           break
     else:
         print("Invalid Input")
+
+output:
+Select operation.
+1.Add
+2.Subtract
+3.Multiply
+4.Divide
+Enter choice(1/2/3/4): 1
+Enter first number: 12
+Enter second number: 43
+12.0 + 43.0 = 55.0
+Let's do next calculation? (yes/no): no
+you can copy and paste it on any online python compiler i tried it on programiz
+
