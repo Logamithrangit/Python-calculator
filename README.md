@@ -61,7 +61,7 @@ Select operation.
 Enter choice(1/2/3/4): 1
 Enter first number: 12
 Enter second number: 43
-12.0 + 43.0 = 55.0
+12 + 43 = 55
 Let's do next calculation? (yes/no): no
 
 
